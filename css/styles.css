@@ -16,6 +16,15 @@ body {
   background-color: var(--filter-secondarycolor);
   font-family: Roboto, sans-serif;
 }
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 .lst {
   list-style: none;
 }
@@ -37,6 +46,10 @@ body {
 }
 .link-list {
   color: var(--secondary-text);
+}
+.list,
+.link-list {
+  display: flex;
 }
 .link:hover,
 .link:focus {
@@ -63,9 +76,17 @@ body {
 /* index */
 /* hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-bcg);
+  text-align: center;
 }
 .hero-title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -77,15 +98,20 @@ body {
   color: var(--filter-secondarycolor);
 }
 .hero-button {
+  display: inline-block;
+  min-width: 200px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+  align-items: center;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+
   background-color: var(--accent-color);
   color: var(--filter-secondarycolor);
   cursor: pointer;
@@ -96,6 +122,9 @@ body {
   background-color: var(--filter-secondarycolor);
 }
 /* features */
+.features {
+  display: flex;
+}
 .features h3 {
   font-size: 14px;
   line-height: 1.14;
@@ -108,9 +137,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text);
 }
+/* work */
+.work-titles {
+  display: flex;
+}
 /* team */
 .team {
   background-color: var(--primary-bcg);
+}
+.team-titles {
+  display: flex;
 }
 .titles {
   font-family: 'Roboto';
