@@ -177,6 +177,7 @@ ul {
   margin-bottom: 10px;
 }
 .features-text {
+  max-width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -197,9 +198,6 @@ ul {
   display: flex;
   margin-bottom: 94px;
 }
-.work-titles .lst {
-  padding-top: 94px;
-}
 
 .work-titles .lst:not(:last-child) {
   margin-right: 30px;
@@ -207,11 +205,13 @@ ul {
 /* team */
 .team {
   background-color: var(--primary-bcg);
+  padding-top: 94px;
 }
 .team-titles {
   display: flex;
 }
 .titles {
+  margin-bottom: 50px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -229,6 +229,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team-titles .lst:not(:last-child) {
+  margin-right: 30px;
+}
+.team-titles .lst {
+  padding-bottom: 94px;
+}
 .team-titles p {
   font-family: 'Roboto';
   font-style: normal;
@@ -238,6 +244,12 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text);
+}
+.team-titles h3 {
+  padding-top: 30px;
+}
+.team-titles p {
+  padding-top: 10px;
 }
 /* portfolio */
 /* btns */
@@ -276,6 +288,8 @@ ul {
 }
 /* footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--footer-bcg);
 }
 .adress-link {
@@ -286,6 +300,15 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--footer-linkcolor);
+}
+.adress-list .lst {
+  margin-top: 20px;
+}
+.adress-list .lst:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer .logo {
+  margin: auto;
 }
 .link1 {
   color: var(--filter-secondarycolor);
