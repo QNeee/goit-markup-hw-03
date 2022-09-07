@@ -33,7 +33,7 @@ ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 .site-nav {
   display: flex;
@@ -268,7 +268,32 @@ ul {
   background-color: var(--accent-color);
   color: var(--filter-secondarycolor);
 }
+.portfolio-btns {
+  padding-top: 94px;
+}
+.buttons-list {
+  margin: auto;
+  max-width: 575px;
+  display: flex;
+  height: 38px;
+}
+.buttons-list .lst:not(:last-child) {
+  margin-right: 8px;
+}
+.buttons-list {
+  margin-bottom: 34px;
+  align-items: center;
+}
+
 /* projects */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1200px;
+}
+.projects .lst:not(:last-child) {
+  margin-right: 30px;
+}
 .group1 {
   font-family: 'Roboto';
   font-style: normal;
