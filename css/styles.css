@@ -16,6 +16,17 @@ body {
   background-color: var(--filter-secondarycolor);
   font-family: Roboto, sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -24,7 +35,15 @@ body {
   padding-right: 15px;
   outline: 2px solid tomato;
 }
-
+.site-nav {
+  display: flex;
+}
+.site-nav .link {
+  margin-right: 50px;
+}
+.site-nav .link:last-child {
+  margin-right: 0;
+}
 .lst {
   list-style: none;
 }
@@ -44,13 +63,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text);
 }
-.link-list {
-  color: var(--secondary-text);
-}
-.list,
-.link-list {
-  display: flex;
-}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
