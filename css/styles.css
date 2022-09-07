@@ -44,6 +44,10 @@ ul {
 .site-nav .link:last-child {
   margin-right: 0;
 }
+.nav-flex {
+  display: flex;
+  align-items: center;
+}
 .lst {
   list-style: none;
 }
