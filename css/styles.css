@@ -99,6 +99,7 @@ ul {
 .logo {
   align-items: center;
   text-align: center;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -124,8 +125,9 @@ ul {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--footer-bcg);
   text-align: center;
+
+  background-color: var(--footer-bcg);
 }
 .hero-title {
   margin-bottom: 30px;
@@ -171,6 +173,7 @@ ul {
 
 .features-title {
   margin-bottom: 10px;
+
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -179,6 +182,7 @@ ul {
 }
 .features-text {
   max-width: 270px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -213,6 +217,7 @@ ul {
 }
 .titles {
   margin-bottom: 50px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -315,6 +320,7 @@ ul {
 }
 .group1 {
   padding-top: 20px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -324,6 +330,7 @@ ul {
 }
 .title {
   padding-top: 5px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -337,6 +344,7 @@ ul {
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+
   background-color: var(--footer-bcg);
 }
 .adress-link {
