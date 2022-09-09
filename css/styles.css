@@ -274,7 +274,6 @@ ul {
   border-radius: 4px;
   border: 1px solid transparent;
   padding: 6px 22px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -286,13 +285,17 @@ ul {
 }
 .btns:hover,
 .btns:focus {
+  border: 1px solid #000000;
+
   background-color: var(--accent-color);
   color: var(--filter-secondarycolor);
 }
+
 .buttons-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  padding-bottom: 15px;
 }
 .buttons-list .lst {
   align-items: center;
@@ -303,20 +306,22 @@ ul {
 
 /* projects */
 .projects {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
 }
 
-/* .projects-border {
+.projects .lst:not(:last-child) {
+  margin-right: 30px;
+}
+.projects .lst {
+  padding-bottom: 30px;
+}
+.projects-border {
   border: 1px solid #eeeeee;
   border-top: transparent;
   padding: 20px 24px;
-} */
-
-.projects .lst:not(:last-child) {
-  margin-right: 30px;
-  padding-bottom: 30px;
 }
 .group1 {
   padding-top: 20px;
