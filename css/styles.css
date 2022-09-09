@@ -190,7 +190,7 @@ ul {
 
   color: var(--secondary-text);
 }
-.feature-section {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -269,7 +269,9 @@ ul {
 }
 /* portfolio */
 /* btns */
-.portfolio-section {
+.section {
+  width: 1170px;
+  margin: auto;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -330,8 +332,6 @@ ul {
   padding: 20px 24px;
 }
 .group1 {
-  padding-top: 20px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
