@@ -362,7 +362,9 @@ ul {
 .adress-list .lst:not(:last-child) {
   margin-bottom: 9px;
 }
-
+.adress-list {
+  margin-top: 20px;
+}
 .link1 {
   color: var(--filter-secondarycolor);
   text-decoration: none;
