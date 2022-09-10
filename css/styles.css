@@ -40,7 +40,6 @@ ul {
 }
 
 .nav-flex {
-  height: 80px;
   display: flex;
   align-items: center;
 }
@@ -52,12 +51,14 @@ ul {
 }
 .site-nav {
   display: flex;
-  margin-left: 93px;
+  padding-left: 93px;
 }
 
 .list {
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: flex;
-  margin-left: 344px;
+  padding-left: 344px;
   align-items: center;
 }
 .list .contact-item {
@@ -203,7 +204,6 @@ ul {
 /* work */
 .work-titles {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .work-titles .lst:not(:last-child) {
@@ -212,7 +212,7 @@ ul {
 /* team */
 .team {
   padding-top: 94px;
-
+  margin-top: 94px;
   background-color: var(--primary-bcg);
 }
 .team-titles {
@@ -230,6 +230,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .team-titles h3 {
+  padding-top: 30px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -250,6 +251,7 @@ ul {
   background-color: var(--filter-secondarycolor);
 }
 .team-titles p {
+  margin-top: 10px;
   padding-bottom: 30px;
 
   font-family: 'Roboto';
@@ -261,20 +263,9 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text);
 }
-.team-titles h3 {
-  padding-top: 30px;
-}
-.team-titles p {
-  padding-top: 10px;
-}
+
 /* portfolio */
 /* btns */
-.section {
-  width: 1170px;
-  margin: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .btns {
   display: inline-block;
   min-width: 73px;
@@ -304,7 +295,6 @@ ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  padding-bottom: 15px;
 }
 .buttons-list .lst {
   align-items: center;
@@ -315,10 +305,10 @@ ul {
 
 /* projects */
 .projects {
+  width: 1200px;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
 }
 
 .projects .lst:not(:last-child) {
@@ -341,7 +331,7 @@ ul {
   letter-spacing: 0.06em;
 }
 .title {
-  padding-top: 5px;
+  margin-top: 5px;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -353,7 +343,6 @@ ul {
 }
 /* footer */
 .footer {
-  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -369,14 +358,9 @@ ul {
 
   color: var(--footer-linkcolor);
 }
-.footer-adress {
-  margin-bottom: 60px;
-}
+
 .adress-list .lst:not(:last-child) {
   margin-bottom: 9px;
-}
-.footer .logo {
-  margin-top: 60px;
 }
 
 .link1 {
