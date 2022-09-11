@@ -33,6 +33,7 @@ ul {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
   /* outline: 2px solid tomato; */
 }
 .site-nav {
@@ -51,14 +52,14 @@ ul {
 }
 .site-nav {
   display: flex;
-  padding-left: 93px;
+  margin-left: 93px;
 }
 
 .list {
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
-  padding-left: 344px;
+  margin-left: 344px;
   align-items: center;
 }
 .list .contact-item {
@@ -209,10 +210,12 @@ ul {
 .work-titles .lst:not(:last-child) {
   margin-right: 30px;
 }
+.work-section {
+  padding-bottom: 94px;
+}
 /* team */
 .team {
   padding-top: 94px;
-  margin-top: 94px;
   background-color: var(--primary-bcg);
 }
 .team-titles {
@@ -220,7 +223,6 @@ ul {
 }
 .titles {
   margin-bottom: 50px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -305,7 +307,6 @@ ul {
 
 /* projects */
 .projects {
-  width: 1200px;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -316,6 +317,9 @@ ul {
 }
 .projects .lst {
   padding-bottom: 30px;
+}
+.projects .lst:nth-child(3n + 3) {
+  margin-right: 0px;
 }
 .projects-border {
   border: 1px solid #eeeeee;
@@ -363,7 +367,7 @@ ul {
   margin-bottom: 9px;
 }
 .adress-list {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .link1 {
   color: var(--filter-secondarycolor);
